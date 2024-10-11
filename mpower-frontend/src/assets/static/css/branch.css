@@ -1,0 +1,38 @@
+.branch-selection {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px; /* Add padding for better centering */
+  }
+  
+  h2 {
+    margin-bottom: 10px; /* Reduce space below the heading */
+  }
+  
+  .form-group {
+    width: 100%;    
+    padding-top: 23px;    
+    text-align: left;
+  }
+  
+  #row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align radio buttons to the left */
+  }
+  
+  .form-check {
+    width: auto; /* Make each radio button fit its content */
+  }
+  
+  .form-check-input {
+    margin-right: 10px; /* Add space between radio button and label */
+  }
+  
+  .btn-primary {
+  }
+  

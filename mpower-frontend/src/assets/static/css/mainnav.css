@@ -1,0 +1,18 @@
+footer {
+    margin-top: 40px;
+}
+.btn {
+    font-size: 1rem;
+}
+@media (max-width: 576px) {
+    .btn {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+}
+@media (min-width: 768px) {
+    .btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
